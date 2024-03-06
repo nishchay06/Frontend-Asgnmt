@@ -1,21 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      spacing:{
-        "big":"48rem"
-      }
+      spacing: {
+        big: "48rem",
+      },
     },
-    screens:{
-      sm:"480px",
-      md:"768px",
-      lg:"1024px",
-      xl:"1280px",
-    }
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+    },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 }

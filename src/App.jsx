@@ -1,6 +1,6 @@
 import Main from "./components/Main"
-import RightBar from "./components/RightBar"
 import TopBar from "./components/TopBar"
+import YouMayAlsoLike from "./components/YouMayAlsoLike"
 
 function App() {
   return (
@@ -9,12 +9,10 @@ function App() {
         <TopBar />
       </div>
       <div>
-        <div>
-          <Main />
-        </div>
-        <div>
-          <RightBar />
-        </div>
+        <Main />
+      </div>
+      <div>
+        <YouMayAlsoLike />
       </div>
     </>
   )

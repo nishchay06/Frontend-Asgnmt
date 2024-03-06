@@ -32,7 +32,10 @@ export default function TopBar() {
             </li>
           </ul>
 
-          <div id='hamburger' className='space-y-1 md:hidden cursor-pointer z-20'>
+          <div
+            id='hamburger'
+            className='space-y-1 md:hidden cursor-pointer z-20'
+          >
             <div className='w-6 h-0.5 bg-black'></div>
             <div className='w-6 h-0.5 bg-black'></div>
             <div className='w-6 h-0.5 bg-black'></div>
