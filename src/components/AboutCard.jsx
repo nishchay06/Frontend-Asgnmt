@@ -11,7 +11,7 @@ const AboutCard = () => {
         </h5>
       </div>
       <div>
-        <div className='w-full flow-root p-5'>
+        <div className='w-full flow-root'>
           <ul role='list' className='divide-y '>
             <li className='py-3 sm:py-4'>
               <div>
