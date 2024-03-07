@@ -18,26 +18,28 @@ export default function Main() {
       <div className='flex flex-wrap justify-center'>
         <div className='md:w-2/3 md:flex md:justify-center'>
           <div>
-            <div className='mt-3 '>
+            <div className='m-3'>
               <TitleCard />
             </div>
-            <GraphCard />
-            <div className='mt-3 mb-5'>
+            <div className='mx-5'>
+              <GraphCard />
+            </div>
+            <div className='m-3'>
               <TabWidget />
             </div>
-            <div className='mt-3 mb-5'>
+            <div className='m-3'>
               <PerformanceCard />
             </div>
-            <div className='mt-3 mb-5'>
+            <div className='m-3'>
               <SentimentCard />
             </div>
-            <div className='mt-3 mb-5'>
+            <div className='m-3'>
               <AboutCard />
             </div>
-            <div className='hidden md:block md:mt-3 md:mb-5'>
+            <div className='hidden md:block md:m-3'>
               <TokenomicsCard />
             </div>
-            <div className='mt-3 mb-5'>
+            <div className='m-3'>
               <TeamCard />
             </div>
           </div>

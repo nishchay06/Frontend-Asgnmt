@@ -1,9 +1,15 @@
-import GetStarted from "./GetStarted";
-import Trending from "./Trending";
+import GetStarted from "./GetStarted"
+import Trending from "./Trending"
 
 export default function RightBar() {
-  return <div>
-    <GetStarted />
-    <Trending />
-  </div>
+  return (
+    <div>
+      <div className='m-3'>
+        <GetStarted />
+      </div>
+      <div className='m-3'>
+        <Trending />
+      </div>
+    </div>
+  )
 }

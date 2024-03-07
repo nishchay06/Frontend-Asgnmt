@@ -2,7 +2,7 @@ import GettingStartedVector from "./GettingStartedVector"
 
 export default function GetStarted() {
   return (
-    <div className='text-white bg-blue-700 w-full max-w-sm border border-gray-200 rounded-lg shadow'>
+    <div className='text-white bg-blue-700 w-full max-w-md border border-gray-200 rounded-lg shadow'>
       <div className='flex flex-col items-center pb-5 px-5 text-center'>
         <div className='text-xl font-bold max-w-72 p-2 m-2'>
           Get Started with KoinX for FREE
