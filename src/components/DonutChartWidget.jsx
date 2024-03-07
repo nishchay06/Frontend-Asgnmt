@@ -92,8 +92,8 @@ const DonutChartWidget = () => {
 
   return (
     <>
-      <div class='max-w-sm w-fullp-4 md:p-6'>
-        <div class='py-6' id='donut-chart'></div>
+      <div className='max-w-sm w-fullp-4 md:p-6'>
+        <div className='py-6' id='donut-chart'></div>
       </div>
     </>
   )
