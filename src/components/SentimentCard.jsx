@@ -1,4 +1,5 @@
 import React from "react"
+import CardBar from "./CardBar"
 
 const SentimentCard = () => {
   return (
@@ -31,7 +32,9 @@ const SentimentCard = () => {
               </svg>
             </div>
           </h5>
-          <div>Scrollable Cards</div>
+          <div>
+            <CardBar />
+          </div>
         </div>
         <div>
           <h5 className='mb-2 text-xl font-bold tracking-tight text-gray-800 flex'>

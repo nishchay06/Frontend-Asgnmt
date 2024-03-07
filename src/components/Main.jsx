@@ -7,6 +7,7 @@ import SentimentCard from "./SentimentCard"
 import TabWidget from "./TabWidget"
 import TeamCard from "./TeamCard"
 import TokenomicsCard from "./TokenomicsCard"
+import TitleCard from "./TitleCard"
 
 export default function Main() {
   return (
@@ -17,6 +18,9 @@ export default function Main() {
       <div className='flex flex-wrap justify-center'>
         <div className='md:w-2/3 md:flex md:justify-center'>
           <div>
+            <div className='mt-3 '>
+              <TitleCard />
+            </div>
             <GraphCard />
             <div className='mt-3 mb-5'>
               <TabWidget />
