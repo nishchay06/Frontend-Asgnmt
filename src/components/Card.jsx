@@ -3,14 +3,14 @@ export default function Card() {
     <div className='m-1 p-2'>
       <div className='flex flex-col items-center bg-blue-100 border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-blue-200 '>
         <div className='md:h-auto md:w-48 '>
-          <div className='max-w-[120px] max-h-[120px] m-2 p-2'>
+          <div className='max-w-[80px] max-h-[120px] m-2'>
             <img
               className='object-cover rounded-lg '
               src='../src/assets/CTA1_Img.png'
               alt=''
             />
           </div>
-          <div className='flex flex-col items-center'>
+          <div className='text-center'>
             <div>John Smith</div>
             <div className='text-xs text-slate-600 text-center'>
               Designation here
