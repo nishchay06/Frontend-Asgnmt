@@ -24,7 +24,7 @@ export default function Main() {
             <div className='mx-5 w-4/5'>
               <GraphCard />
             </div>
-            <div className='m-3 w-auto'>
+            <div className='m-3 w-4/5'>
               <TabWidget />
             </div>
             <div className='m-3 w-4/5'>

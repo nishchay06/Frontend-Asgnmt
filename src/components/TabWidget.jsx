@@ -3,8 +3,8 @@ import React from "react"
 const TabWidget = () => {
   return (
     <>
-      <div className='text-sm font-medium text-center text-gray-500 border-b border-gray-200'>
-        <ul className='flex flex-wrap -mb-px'>
+      <div className='text-sm w-full font-medium text-center text-gray-500 border-b border-gray-200'>
+        <ul className='flex overflow-x-scroll whitespace-nowrap -mb-px scrollbar-hide'>
           <li className='me-2'>
             <a
               href='#'
