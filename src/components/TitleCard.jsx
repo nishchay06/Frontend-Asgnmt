@@ -1,5 +1,7 @@
 import axios from "axios"
 import React, { useEffect, useState } from "react"
+import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp"
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown"
 
 const TitleCard = () => {
   const [data, setData] = useState([])
@@ -22,6 +24,17 @@ const TitleCard = () => {
   const inr_price = data.inr ? data.inr.toFixed(0) : 0
   const perc = data.usd_24h_change ? data.usd_24h_change.toFixed(2) : 0
 
+  const bgColorVariants = {
+    red: "bg-red-200",
+    green: "bg-green-200",
+  }
+  const textColorVariants = {
+    red: "text-red-500",
+    green: "text-green-600",
+  }
+  const up = perc > 0
+  const green = "green"
+  const red = "red"
   return (
     <div>
       <div className='block max-w-5xl p-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 m-2'>
@@ -63,7 +76,16 @@ const TitleCard = () => {
               {"$" + usd_price}
             </div>
             <div>
-              <span className='bg-green-200 text-green-600'>{perc + "%"}</span>
+              <span
+                className={
+                  up
+                    ? `${bgColorVariants[green]} ${textColorVariants[green]}`
+                    : `${bgColorVariants[red]} ${textColorVariants[red]}`
+                }
+              >
+                {up ? <ArrowDropUpIcon fontSize='large' /> : <ArrowDropDownIcon fontSize='large' />}
+                {perc + "%"}
+              </span>
             </div>
             <div className='ml-2 text-sm text-slate-400'>(24H)</div>
           </div>

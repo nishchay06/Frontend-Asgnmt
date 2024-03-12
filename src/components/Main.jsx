@@ -11,12 +11,12 @@ import TitleCard from "./TitleCard"
 
 export default function Main() {
   return (
-    <div className='bg-slate-100 '>
+    <div className='bg-slate-100'>
       <div className='px-7 py-5'>
         <BreadCrumbWidget />
       </div>
       <div className='flex flex-wrap justify-center'>
-        <div className='md:w-2/3 md:flex md:justify-center'>
+        <div className='flex flex-col md:flex-row md:w-2/3 justify-center'>
           <div className='flex flex-col items-center w-full'>
             <div className='m-3 w-4/5'>
               <TitleCard />
