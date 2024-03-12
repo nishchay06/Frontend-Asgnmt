@@ -106,7 +106,7 @@ const CardBarItem = ({ color }) => {
   }
   return (
     <div
-      className={`${colorVariants[color]} w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px]  rounded-lg cursor-pointer m-2 p-3 shadow-md`}
+      className={`${colorVariants[color]} w-[280px] rounded-lg cursor-pointer m-2 p-3 shadow-md`}
     >
       <div className='flex'>
         <div

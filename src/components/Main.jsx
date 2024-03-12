@@ -17,7 +17,7 @@ export default function Main() {
       </div>
       <div className='flex flex-wrap justify-center'>
         <div className='md:w-2/3 md:flex md:justify-center'>
-          <div className='flex flex-col items-center'>
+          <div className='flex flex-col items-center w-full'>
             <div className='m-3 w-4/5'>
               <TitleCard />
             </div>
