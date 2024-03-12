@@ -32,10 +32,10 @@ const PerformanceCard = () => {
           </div>
         </h5>
         <div className='flex flex-wrap justify-center'>
-          <div className='md:w-1/2 md:flex md:justify-center min-w-96'>
+          <div className='w-4/5 md:w-1/2 flex justify-center'>
             <FundamentalCard />
           </div>
-          <div className='md:w-1/2 md:flex md:justify-center min-w-96'>
+          <div className=' w-4/5 md:w-1/2 flex justify-center'>
             <FundamentalCard />
           </div>
         </div>

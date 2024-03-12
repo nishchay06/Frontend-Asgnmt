@@ -3,7 +3,7 @@ import FundamentalCardItem from "./FundamentalCardItem"
 
 const FundamentalCard = () => {
   return (
-    <div className='w-full flow-root p-5'>
+    <div className='w-full flow-root p-2'>
       <ul role='list' className='divide-y '>
         <li className='py-3 sm:py-4'>
           <FundamentalCardItem />
