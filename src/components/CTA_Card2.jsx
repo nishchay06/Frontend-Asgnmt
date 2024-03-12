@@ -4,11 +4,7 @@ const CTA_Card2 = () => {
   return (
     <div className='flex flex-col items-center bg-gradient-to-br from-orange-400 to-red-600 border rounded-lg shadow md:flex-row md:max-w-xl'>
       <div className='max-w-[120px] max-h-[120px] m-2 p-2'>
-        <img
-          className='object-cover rounded-lg '
-          src='../src/assets/CTA2_Img.png'
-          alt=''
-        />
+        <img className='object-cover rounded-lg ' src='/CTA2_Img.png' alt='' />
       </div>
       <div className='flex flex-col justify-between p-4 leading-normal'>
         <h5 className='mb-2 text-xl font-semibold tracking-tight text-slate-50 '>

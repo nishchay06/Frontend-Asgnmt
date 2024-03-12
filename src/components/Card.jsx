@@ -6,7 +6,7 @@ export default function Card() {
           <div className='max-w-[80px] max-h-[120px] m-2'>
             <img
               className='object-cover rounded-lg '
-              src='../src/assets/CTA1_Img.png'
+              src='/CTA1_Img.png'
               alt=''
             />
           </div>
@@ -28,30 +28,6 @@ export default function Card() {
           </div>
         </div>
       </div>
-
-      {/* here is the break */}
-
-      {/* <div className='m-1 p-2'>
-        <div className='block max-w-5xl p-6 bg-blue-100 border border-gray-200 rounded-lg shadow hover:bg-blue-200'>
-          <div className='flex'>
-            <div>
-              <div>photo</div>
-              <div>
-                <div>name</div>
-                <div>desg</div>
-              </div>
-            </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   )
 }
