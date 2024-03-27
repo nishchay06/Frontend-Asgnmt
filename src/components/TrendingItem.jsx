@@ -18,7 +18,7 @@ const TrendingItem = ({ coin }) => {
             </p>
           </div>
           <div className='inline-flex items-center text-base font-semibold'>
-            {"$" + parseFloat(coin.item.data.price.slice(1)).toFixed(2)}
+            {"$" + parseFloat(coin.item.data.price).toFixed(2)}
           </div>
         </div>
       </li>

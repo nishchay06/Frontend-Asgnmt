@@ -8,7 +8,6 @@ const TitleCard = () => {
   async function getData(url) {
     try {
       axios.get(url).then((res) => {
-        console.log(res.data.bitcoin)
         setData(res.data.bitcoin)
       })
     } catch (error) {

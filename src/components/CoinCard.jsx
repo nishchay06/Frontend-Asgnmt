@@ -35,7 +35,7 @@ const CoinCard = ({ coin }) => {
         </div>
       </div>
       <div className='pl-5'>
-        {"$" + parseFloat(coin.item.data.price.slice(1)).toFixed(2)}
+        {"$" + parseFloat(coin.item.data.price).toFixed(2)}
       </div>
       <div className='flex justify-center'>
         <img src={coin.item.data.sparkline} />
